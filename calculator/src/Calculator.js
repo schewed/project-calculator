@@ -5,7 +5,7 @@ import ButtonGrid from './ButtonGrid.js';
 function Calculator(props) {
     return(
     <div className="calculator">
-        This is the calculator that will house the display and buttons
+        EZ CALC
         <div>
             <Display display={props.display} />
         </div>

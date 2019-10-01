@@ -17,6 +17,7 @@ code {
   width: 700px;
   height: 900px;
   border: 3px solid gray;
+  border-radius: 10px;
 }
 
 .display {
@@ -24,22 +25,29 @@ code {
   width: 650px;
   height: 100px;
   border: 3px solid black;
+  border-radius: 10px;
   background-color: blue;
 }
 
 .button {
+  display: inline-block;
   background-color: goldenrod;
-  padding: 15px;
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
   font-size: 25px;
   border-radius: 10px;
+  border: black solid 3px;
+  outline: none;
 }
 
 .button:hover {
   background-color:magenta;
+  cursor: pointer;
 }
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #3dacb4;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
