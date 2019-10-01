@@ -26,3 +26,20 @@ code {
   border: 3px solid black;
   background-color: blue;
 }
+
+.button {
+  background-color: goldenrod;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color:magenta;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
