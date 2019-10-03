@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      display: 'testing display capability',
+      display: '0',
       result: 0
     }
   }
@@ -16,7 +16,7 @@ class App extends React.Component {
     <div className="App">
       <header className="App-header">
         <div>
-          <Calculator display={this.state.display}/>
+          <Calculator display={this.state.display} />
         </div>
       </header>
     </div>

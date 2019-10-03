@@ -1,13 +1,15 @@
 import React from 'react';
 
 function ButtonGrid(props) {
+    var symbols = ['+', '-', '*', '÷', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'C', '√', 'x^2', 'x^3', 'x^y', '𝜋', 'e'];
     return(
+        // should iterate through an array and map buttons
         <div>
-            <p>This is where the individual buttons will go:</p>
+            <p>Buttons:</p>
             <button id="+" className="button">+</button>
             <button id="-" className="button">-</button>
             <button id="*" className="button">*</button>
-            <button id="/" className="button">/</button>
+            <button id="÷" className="button">÷</button>
             <br></br>
             <button id="0" className="button">0</button>
             <button id="1" className="button">1</button>
@@ -20,6 +22,12 @@ function ButtonGrid(props) {
             <button id="8" className="button">8</button>
             <button id="9" className="button">9</button>
             <button id="clear" className="button">C</button>
+            <button id="sqrt" className="button">√</button>
+            <button id="exp2" className="button">x<sup>2</sup></button>
+            <button id="exp3" className="button">x<sup>3</sup></button>
+            <button id="exp" className="button">x<sup>y</sup></button>
+            <button id="pi" className="button">𝜋</button>
+            <button id="e" className="button">e</button>
         </div>
     );
 }
